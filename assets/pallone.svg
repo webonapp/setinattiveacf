@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Pallone da calcio">
+  <defs>
+    <radialGradient id="ball" cx="35%" cy="28%" r="72%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.62" stop-color="#f5f5f2"/>
+      <stop offset="1" stop-color="#c9cbc6"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <circle cx="64" cy="61" r="51" fill="url(#ball)" stroke="#171a18" stroke-width="4"/>
+    <path d="M64 38 82 51 75 72 53 72 46 51Z" fill="#171a18"/>
+    <path d="M64 38 62 15M82 51l22-7M75 72l12 20M53 72 41 92M46 51 24 44" fill="none" stroke="#171a18" stroke-width="4" stroke-linecap="round"/>
+    <path d="m62 15-21 4-17 25-5 22 22 26 23 16 23-16 22-26-5-22-19-24Z" fill="none" stroke="#5d625e" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M19 66h18l4 26M109 66H91l-4 26M41 19l5 32M85 20l-3 31M64 108l11-36M64 108 53 72" fill="none" stroke="#5d625e" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>
